@@ -1,0 +1,63 @@
+.sec7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    padding: 70px;
+    background-color: black;
+    border-bottom: 3px solid gray;
+  }
+  .sec7 .grid {
+    width: 45%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 15px;
+    position: relative;
+    /* border: 1px solid white; */
+  }
+  .sec7 .grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2rem;
+  }
+  .sec7 .grid img:hover {
+    border: 1px solid white;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  .sec7 .display {
+    background-color: rgb(4, 4, 4);
+    width: 50%;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    padding: 10px 5px;
+    position: relative;
+    border-radius: 2rem;
+  }
+  .sec7 .display .video {
+    width: 99%;
+    height: 230px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 1rem;
+    background-color: black;
+  }
+  .sec7 .display .video .trailers {
+    width: 96%;
+    border-radius: 1rem;
+    position: absolute;
+    top: -19%;
+    left: 1%;
+  }
+  .trailers.show {
+    display: none;
+  }

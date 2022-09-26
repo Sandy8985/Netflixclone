@@ -1,0 +1,72 @@
+section {
+    border-bottom: 3px solid grey;
+  
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url("../../Assets/sec1/hero.jpg") center/ cover no-repeat;
+    
+  }
+  
+  section .bg .content {
+    text-align: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  section .bg .content h1 {
+    font-size: 4.5rem;
+  }
+  section .bg .content h3 {
+    font-size: 1.625rem;
+  }
+  
+  .bg .inp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    
+  }
+  .bg .inp .inp2{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+  }
+  .bg .inp p{
+    font-size: 20px;
+  }
+  .bg .inp #ip {
+    /* padding: 8px 8px; */
+    display: flex;
+    justify-content: center;
+    border: none;
+    height: 70px;
+    width: 80%;
+  }
+  
+  .bg .inp .sub {
+    height: 70px;
+    width: 50%;
+    /* padding: 10px 10px; */
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 30px;
+  }
+
+  
+  

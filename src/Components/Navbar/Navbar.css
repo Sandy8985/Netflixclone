@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        padding: 0 8vh;
+        
+        
+    }
+    nav .logo{
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .logo img{
+        width: 24.3vh;
+    }
+    nav .logo .btn{
+    padding: 8px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    }
+    
+    
+nav .logo #google_translate_element a{
+display: none;
+
+    }
+    .goog-te-gadget .goog-te-combo {
+        border-radius: 5px;
+    }
+   
+    #google_translate_element .skiptranslate.goog-te-gadget{
+        font-size: 0;
+        
+    }
+    .skiptranslate iframe{
+    display: none;
+    height: 0px;
+    }

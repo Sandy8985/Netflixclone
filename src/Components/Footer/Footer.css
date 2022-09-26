@@ -1,0 +1,49 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica 65 Medium", sans-serif;
+  color: rgb(143, 133, 133);
+}
+.foo {
+  background-color: black;
+  height: 80vh;
+  font-size: 15px;
+  width: 100%;
+  border-bottom: 8px solid rgb(46, 46, 46);
+  display: flex;
+  /* align-items: center; */
+  justify-items: start;
+  flex-direction: column;
+  gap: 15%;
+  padding: 5% 10%;
+}
+.foo .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14%;
+}
+
+.foo .lang button{
+    padding: 2% 5%;
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+.foo .links .r1,.r2,.r3,.r4 {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.foo .links p:hover {
+  text-decoration: underline;
+}
+
+.foo .india{
+    margin-top: -25px;
+}

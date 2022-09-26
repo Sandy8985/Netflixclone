@@ -1,0 +1,27 @@
+.sec5{
+    width: 100%;
+    padding: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: black;
+    gap: 3%;
+}
+.sec5 .sec5content{
+width: 40%;
+display: flex;
+gap: 20px;
+flex-direction: column;
+}
+.sec5 .sec5content h1{
+    font-size: 66px;
+}
+.sec5 .sec5content p{
+    font-size: 30px;
+}
+.sec5 .sec5image .image51{
+width: 86%;
+
+}
